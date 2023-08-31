@@ -333,16 +333,23 @@ footer div {
         width: 20%
     }
     header nav{
-        width: 80%;
+        width: 100%;
         display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
         justify-content: center;
     }
     .section-2{
-        max-width: none;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
     }
+    
 }
 
-/** contactos media queries*//
+/** contactos media queries**/
 @media (max-width: 320px){
     .form{
         max-width: none;
